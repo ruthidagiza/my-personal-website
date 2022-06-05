@@ -20,8 +20,14 @@ body {
     flex-direction: column;
     color: white;
     text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
-
+.rightpane{
+    height: 100vh;
+    margin-left: 250px;
+}
 .imagecontainer {
     height: 100px;
     width: 100%;
@@ -48,4 +54,13 @@ body {
     justify-content: center;
     text-align: center;
 
+}
+
+.workinfo {
+    margin: 10px;
+    margin-top: 15px;
+}
+
+#myname:hover{
+     color: green;
 }
