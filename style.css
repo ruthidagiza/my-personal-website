@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: grey;
 
   }
 
@@ -23,10 +24,14 @@ body {
     position: fixed;
     top: 0px;
     left: 0px;
+    border: 1px;
+    box-shadow:5px  10px;
 }
 .rightpane{
-    height: 30%;
+    min-height: 100%;
     margin-left: 250px;
+    box-shadow: 2px 5px;
+    background-color: white;
 }
 
 .imagecontainer {
@@ -60,6 +65,6 @@ body {
 }
 
 #myname:hover{
-     color: green;
+     color: blue;
 
 }
